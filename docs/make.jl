@@ -1,3 +1,16 @@
-using Documenter, Example
+using Documenter
+using Example
 
-makedocs(sitename="My Documentation", format= Documenter.HTML(prettyurls= false))
+Documenter.makedocs(
+    source = "src",
+    build = "build",
+    clean = true,
+    doctest = true,
+    modules = Module[Example],
+    sitename="Diccionario de ML",
+    repo="https://github.com/enchiladasdeml/dictionary",
+    pages = [
+        "Index" => "index.md"
+    ],
+    format = Documenter.HTML(prettyurls= false)
+)
