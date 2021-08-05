@@ -10,7 +10,10 @@ Documenter.makedocs(
     sitename="Diccionario de ML",
     repo="https://github.com/enchiladasdeml/dictionary",
     pages = [
-        "Index" => "index.md"
+        "Conceptos Básicos" => "index.md",
+        "Algoritmos" => "algorithms.md",
+        "Herramientas" => "tools.md",
+        "Recursos gratuitos para aprender" => "resources.md"
     ],
     format = Documenter.HTML(prettyurls= false)
 )
