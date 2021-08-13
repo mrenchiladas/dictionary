@@ -3,7 +3,7 @@ name: Add a new term for dictionary
 about: Suggest an term for this disctionary
 title: ''
 labels: enhancement, new term
-assignees: ''
+assignees: mrenchiladas
 
 ---
 
